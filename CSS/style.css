@@ -212,7 +212,7 @@ body{
     place-items: center;
     place-content: space-evenly;
     height: max-content;
-    padding: 1rem;
+    padding-top: 1rem;
     grid-template-areas: 'ReMAx  Century21'  
                         'Codwell  ERA';
 }
@@ -423,7 +423,7 @@ body{
         place-items: center;
         place-content: space-evenly;
         height: max-content;
-        padding: 1rem;
+        padding-top: 3rem;
         grid-template-areas: 'ReMAx  Century21 Codwell  ERA';
     }
     .codwell img{
