@@ -407,6 +407,34 @@ body{
         width: 100px;
         opacity: 0.5;
     }
+    .popular{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .trackPopular{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .trackPopular .item1 img{
+        width: 550px;
+        object-fit: cover;
+        height: 300px;
+        border-radius: 20px;
+     }
+     .trackPopular .item2 img{
+         width: 550px;
+         object-fit: cover;
+         height: 300px;
+         border-radius: 20px;
+      }
+      .trackPopular .item3 img{
+         width: 550px;
+         object-fit: cover;
+         height: 300px;
+         border-radius: 20px;
+      }
 }
 @media screen and (min-width: 1024px) {
     .profile {
