@@ -212,7 +212,7 @@ body{
     place-items: center;
     place-content: space-evenly;
     height: max-content;
-    padding-top: 1rem;
+    padding-top: 3rem;
     grid-template-areas: 'ReMAx  Century21'  
                         'Codwell  ERA';
 }
@@ -256,7 +256,6 @@ body{
     gap: 0.4rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    margin-left: 4.5rem;
 }
 .titlePopular h1{
     color: #D9B79D;
@@ -323,6 +322,18 @@ body{
  .trackPopular .item3 img{
     width: 450px;
     border-radius: 20px;
+ }
+
+ .OurValue{
+    display: flex;
+    align-items: center;
+ }
+ .OurValue .pictValue{
+
+ }
+ .OurValue .descValue{
+    display: flex;
+    flex-direction: column;
  }
 /* RESPONSIVE DESIGN */
 @media screen and (min-width: 480px) {
@@ -450,6 +461,14 @@ body{
     .popular{
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .titlePopular{
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        margin-left: 4.5rem;
     }
     .trackPopular{
         display: flex;
