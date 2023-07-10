@@ -149,6 +149,7 @@ body{
     border: none;
     display: flex;
     align-items: center;
+    width: 30rem;
 }
 .searchField:focus{
     outline: none;
